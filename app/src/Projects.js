@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Jumbotron from './components/Jumbotron';
 
 function Projects() {
   return (
-    <div>
-      <h2>Projects</h2>
-      <p>Lorem Ipsum blahblahblahblah</p>
-    </div>
+    <React.Fragment>
+      <Jumbotron initial_title="Projects" main_title="" overlay="default_overlay" />
+      <p>Here are some projects and technical papers I have worked on throughout my academic and professional life.</p>
+    </React.Fragment>
   )
 }
 
