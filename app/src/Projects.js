@@ -11,7 +11,7 @@ const Styles = styled.div`
     margin-left: 5px;
     margin-right: 5px;
     text-align: center;
-    
+    font-size: large;
   }
 `
 
@@ -23,8 +23,10 @@ function Projects() {
                   main_title="Here are some projects I have worked on throughout my academic and professional life." 
                   overlay="default_overlay"
                   overlay2="projects_overlay" />
-        <Container>
+        <Container fluid>
           <Row>
+            <Col>
+            </Col>
             <Col className='column'>
               Notes and Papers
               <ListGroup variant='flush'>
@@ -33,6 +35,8 @@ function Projects() {
               
             </Col>
             <Col className='column'>Software</Col>
+            <Col>
+            </Col>
           </Row>
         </Container>
       </Styles>

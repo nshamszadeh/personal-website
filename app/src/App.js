@@ -12,7 +12,7 @@ function App() {
   return (
     <React.Fragment>
       <NavigationBar />
-        <Layout>
+        <>
           <Router>
             <Switch>
               <Route exact path='/' component={Home} />
@@ -21,7 +21,7 @@ function App() {
               <Route component={NoMatch} />
             </Switch>
           </Router>
-        </Layout>
+        </>
     </React.Fragment>
   );
 }
