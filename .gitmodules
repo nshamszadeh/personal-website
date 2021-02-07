@@ -1,0 +1,3 @@
+[submodule "app/src/p5js-particles"]
+	path = app/src/p5js-particles
+	url = https://github.com/nshamszadeh/p5js-particles.git
