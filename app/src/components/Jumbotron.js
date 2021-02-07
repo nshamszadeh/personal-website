@@ -18,6 +18,13 @@ const Styles = styled.div`
   .default_overlay {
     margin-top: 0px;
   }
+
+  .projects_overlay {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: normal;
+    font-size: 125%;
+  }
 `
 
 
@@ -28,7 +35,7 @@ export default function Jumbotron(props) {
       <div className='overlay'>
       <Container>
       <h2 className={props.overlay}>{props.initial_title}</h2>
-      <h2>{props.main_title}</h2>
+      <h2 className={props.overlay2}>{props.main_title}</h2>
       </Container>
       </div>
       </Jumbo>
