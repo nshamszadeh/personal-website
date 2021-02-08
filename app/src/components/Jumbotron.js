@@ -24,6 +24,7 @@ const Styles = styled.div`
     margin-bottom: 25px;
     font-weight: normal;
     font-size: 125%;
+    line-height: 150%;
   }
 `
 

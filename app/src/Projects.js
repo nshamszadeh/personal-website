@@ -2,7 +2,6 @@ import React from 'react';
 import Jumbotron from './components/Jumbotron';
 import styled from 'styled-components';
 import { Container, Row, Col, ListGroup } from 'react-bootstrap';
-import calc_var from './documents/calculus_of_variations.pdf';
 
 const Styles = styled.div`
   .column {
@@ -30,11 +29,16 @@ function Projects() {
             <Col className='column'>
               Notes and Papers
               <ListGroup variant='flush'>
-                <ListGroup.Item action href={calc_var} variant='light'>Calculus of Variaitons</ListGroup.Item>
+                <ListGroup.Item action href='./projects/calculus_of_variations/calc_var' variant='light'>Calculus of Variaitons</ListGroup.Item>
               </ListGroup>
               
             </Col>
-            <Col className='column'>Software</Col>
+            <Col className='column'>
+              Software
+              <ListGroup variant='flush'>
+                <ListGroup.Item action href='./projects/p5js-particles/particles' variant='light'>Particle Simulator</ListGroup.Item>
+              </ListGroup>
+            </Col>
             <Col>
             </Col>
           </Row>
