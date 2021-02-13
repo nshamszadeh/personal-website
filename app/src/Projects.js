@@ -37,6 +37,7 @@ function Projects() {
               Software
               <ListGroup variant='flush'>
                 <ListGroup.Item action href='./projects/p5js-particles/particles' variant='light'>Particle Simulator</ListGroup.Item>
+                <ListGroup.Item action href='./projects/earthquakes/earthquake_project' variant='light'>Earthquake Tracker</ListGroup.Item>
               </ListGroup>
             </Col>
             <Col>

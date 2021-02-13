@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import Jumbotron from './components/Jumbotron';
 import Container from 'react-bootstrap/Container';
+import resume from './resume.pdf';
 
 const Styles = styled.div`
   .title {
@@ -27,6 +28,11 @@ export default function Home() {
               I graduated in the summer of 2020, a time plagued with a great amount of uncertainty.
               Despite this, I interned at HRL Laboratories where I wrote large scale data generation
               and handling software, aiding in the research of autonomous vehicles and machine learning operations.
+            </p>
+            <p>
+              This website is mostly used as a portfolio of personal projects I have/am working on.
+              <strong> For information on my academic and professional experience, refer to my <a href={resume}>resume</a> </strong>.
+
             </p>
           </div>
         </Styles>
