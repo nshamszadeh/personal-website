@@ -5,7 +5,7 @@ import { Container, Row, Col, ListGroup } from 'react-bootstrap';
 
 const Styles = styled.div`
   .column {
-    border: 1px solid grey;
+    border: 1px;
     padding: 10px;
     margin-left: 5px;
     margin-right: 5px;
@@ -24,8 +24,6 @@ function Projects() {
                   overlay2="projects_overlay" />
         <Container fluid>
           <Row>
-            <Col>
-            </Col>
             <Col className='column'>
               Notes and Papers
               <ListGroup variant='flush'>
@@ -39,8 +37,6 @@ function Projects() {
                 <ListGroup.Item action href='./projects/particles/particles' variant='light'>Particle Simulator</ListGroup.Item>
                 <ListGroup.Item action href='./projects/earthquakes/earthquake_project' variant='light'>Earthquake Tracker</ListGroup.Item>
               </ListGroup>
-            </Col>
-            <Col>
             </Col>
           </Row>
         </Container>
