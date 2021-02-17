@@ -9,6 +9,7 @@ import calc_var from './projects/calculus_of_variations/calc_var';
 import particles from './projects/particles/particles';
 import earthquake_project from './projects/earthquakes/earthquake_project';
 import NavigationBar from './components/NavigationBar';
+import Layout from './components/Layout';
 
 function App() {
   return (

@@ -4,7 +4,8 @@ import styled from 'styled-components'; // default import
 
 const Styles = styled.div`
   .jumbo {
-    background-color: #fff;
+    background-color: #000;
+    color: #fff;
     height: 150px;
     position: relative;
     z-index: -2;

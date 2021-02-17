@@ -7,6 +7,11 @@ import resume from './resume.pdf';
 const Styles = styled.div`
   .title {
     font-weight: normal;
+    background-color: #000;
+    color: #fff;
+  }
+  .cont {
+    background-color: #000;
   }
 `
 
@@ -14,7 +19,7 @@ export default function Home() {
   return (
     <React.Fragment>
       <Jumbotron initial_title="Hi, I'm" main_title="Navid Shamszadeh" overlay="home_overlay" />
-      <Container>
+      <Container fluid='lg' className='cont'>
         <Styles>
           <div>
             <h3 className='title'>A little about me</h3>
