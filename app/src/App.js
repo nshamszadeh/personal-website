@@ -1,15 +1,15 @@
 import './App.css';
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import  Home  from './Home';
-import  Projects  from './Projects';
-import  Contact  from './Contact';
-import  NoMatch  from './NoMatch';
+import Home  from './Home';
+import Projects  from './Projects';
+import Contact  from './Contact';
+import NoMatch  from './NoMatch';
 import calc_var from './projects/calculus_of_variations/calc_var';
 import particles from './projects/particles/particles';
 import earthquake_project from './projects/earthquakes/earthquake_project';
 import NavigationBar from './components/NavigationBar';
-import Layout from './components/Layout';
+import erase_objects from './projects/erase_objects/erase_objects';
 
 function App() {
   return (
@@ -23,6 +23,7 @@ function App() {
               <Route exact path='/projects/calculus_of_variations/calc_var' component={calc_var} />
               <Route exact path='/projects/particles/particles' component={particles} />
               <Route exact path='/projects/earthquakes/earthquake_project' component={earthquake_project} />
+              <Route exact path='/projects/erase_objects/erase_objects' component={erase_objects} />
               <Route component={NoMatch} />
             </Switch>
           </Router>

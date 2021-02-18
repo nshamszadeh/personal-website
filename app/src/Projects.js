@@ -12,12 +12,15 @@ const Styles = styled.div`
     margin-left: 5px;
     margin-right: 5px;
     text-align: center;
-    font-size: large;
+    font-size: 175%;
   }
   .row {
     background-color: #000;
+
   }
   .item {
+    font-size: 60%;
+    text-decoration-line: none;
     background-color: #000;
     color: #fff;
   }
@@ -43,6 +46,7 @@ function Projects() {
             <Col className='column'>
               Software
               <ListGroup variant='flush'>
+                <ListGroup.Item action href='./projects/erase_objects/erase_objects' className='item'>Detect and Erase Objects with AI</ListGroup.Item>
                 <ListGroup.Item action href='./projects/particles/particles' className='item'>Particle Simulator</ListGroup.Item>
                 <ListGroup.Item action href='./projects/earthquakes/earthquake_project' className='item'>Earthquake Tracker</ListGroup.Item>
               </ListGroup>

@@ -22,6 +22,9 @@ function calc_var() {
                   overlay="default_overlay"
                   overlay2="projects_overlay" />
         <Container fluid='sm'>
+          <Row>
+             <ul> <li> <a href={calc_var_pdf}>PDF of Notes</a> </li> </ul>
+          </Row>
           <Row className='description'>
             <p>
               These are some notes I took and problems I solved while taking a reading course covering the calculus of variations.
@@ -30,11 +33,6 @@ function calc_var() {
               in particular, the induction proofs written in section 9, they require some corrections that I will
               get to at a later time.
             </p>
-          </Row>
-          <Row>
-            <Col>
-             <ul> <li> <a href={calc_var_pdf}>PDF of Notes</a> </li> </ul>
-            </Col>
           </Row>
         </Container>
       </Styles>

@@ -23,7 +23,7 @@ export default function NavigationBar() {
         <Navbar.Brand href='/'></Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
-          <Nav className='flex-column'>
+          <Nav className='flex'>
             <Nav.Item><Nav.Link href='/'>Home</Nav.Link></Nav.Item>
             <Nav.Item><Nav.Link href='/projects'>Projects</Nav.Link></Nav.Item>
             <Nav.Item><Nav.Link href='/contact'>Contact</Nav.Link></Nav.Item>

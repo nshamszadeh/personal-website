@@ -19,6 +19,12 @@ function earthquake_project() {
                   overlay="default_overlay"
                   overlay2="projects_overlay" />
         <Container fluid='sm'>
+        <Row>
+            <ul>
+              <li> <a href='https://github.com/ucsb-cs56-f19/proj01-nshamszadeh'>GitHub</a>  </li>
+              <li> <a href='https://cs56-f19-proj01-nshamszadeh.herokuapp.com/'>Website</a> </li>
+            </ul>
+          </Row>
           <Row>
             <Col className='description'>
               <p>
@@ -29,12 +35,7 @@ function earthquake_project() {
               </p>
             </Col>
           </Row>
-          <Row>
-            <ul>
-              <li> <a href='https://github.com/ucsb-cs56-f19/proj01-nshamszadeh'>GitHub</a>  </li>
-              <li> <a href='https://cs56-f19-proj01-nshamszadeh.herokuapp.com/'>Website</a> </li>
-            </ul>
-          </Row>
+
         </Container>
       </Styles>
     </React.Fragment>

@@ -21,6 +21,12 @@ function particles() {
                   overlay="default_overlay"
                   overlay2="projects_overlay" />
         <Container fluid='sm'>
+        <Row>
+            <ul>
+              <li> <a href='https://github.com/nshamszadeh/p5js-particles'>GitHub</a>  </li>
+              <li> <a href='https://editor.p5js.org/nshamszadeh/present/eDnzGqMm7'>Demo</a> </li>
+            </ul>
+          </Row>
           <Row>
             <Col className='description'>
               <p>
@@ -28,12 +34,6 @@ function particles() {
                 for a gravity-like effect.
               </p>
             </Col>
-          </Row>
-          <Row>
-            <ul>
-              <li> <a href='https://github.com/nshamszadeh/p5js-particles'>GitHub</a>  </li>
-              <li> <a href='https://editor.p5js.org/nshamszadeh/present/eDnzGqMm7'>Demo</a> </li>
-            </ul>
           </Row>
         </Container>
       </Styles>
