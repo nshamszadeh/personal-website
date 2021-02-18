@@ -7,7 +7,7 @@ import styled from 'styled-components';
 const Styles = styled.div`
  .description {
     padding-left: 15px;
-    padding-right: 200px;
+    padding-right: 20px;
   }
 `
 function earthquake_project() {

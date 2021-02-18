@@ -37,7 +37,7 @@ function Projects() {
         <Container fluid>
           <Row className='row'>
             <Col className='column'>
-              Notes and Papers
+              Papers
               <ListGroup variant='flush'>
                 <ListGroup.Item action href='./projects/calculus_of_variations/calc_var' className='item'>Calculus of Variations</ListGroup.Item>
               </ListGroup>

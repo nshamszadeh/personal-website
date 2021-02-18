@@ -9,7 +9,7 @@ import car_demo from './car_demo.mp4'
 const Styles = styled.div`
  .description {
     padding-left: 15px;
-    padding-right: 200px;
+    padding-right: 20px;
   }
 `
 
@@ -49,12 +49,14 @@ function erase_objects() {
              </Col>
           </Row>
           <Row>
-            <video width='1280' height='720' controls>
-              <source src={people_demo} type='video/mp4' />
-            </video>
-            <video width='1280' height='720' controls>
-              <source src={car_demo} type='video/mp4' />
-            </video>
+              <video width='640' height='480' controls>
+                <source src={people_demo} type='video/mp4' />
+              </video>
+          </Row>
+          <Row>
+              <video width='640' height='480' controls>
+                <source src={car_demo} type='video/mp4' />
+              </video>
           </Row>
         </Container>
       </Styles>
