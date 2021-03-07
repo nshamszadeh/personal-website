@@ -10,6 +10,7 @@ import particles from './projects/particles/particles';
 import earthquake_project from './projects/earthquakes/earthquake_project';
 import NavigationBar from './components/NavigationBar';
 import erase_objects from './projects/erase_objects/erase_objects';
+import analysis from './projects/analysis/analysis';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
               <Route exact path='/projects/particles/particles' component={particles} />
               <Route exact path='/projects/earthquakes/earthquake_project' component={earthquake_project} />
               <Route exact path='/projects/erase_objects/erase_objects' component={erase_objects} />
+              <Route exact path='/projects/analysis/analysis' component={analysis} />
               <Route component={NoMatch} />
             </Switch>
           </Router>

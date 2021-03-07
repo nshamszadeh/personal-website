@@ -13,6 +13,7 @@ const Styles = styled.div`
     margin-right: 5px;
     text-align: center;
     font-size: 175%;
+    white-space: pre;
   }
   .row {
     background-color: #000;
@@ -20,10 +21,14 @@ const Styles = styled.div`
   }
   .item {
     font-size: 60%;
-    text-decoration-line: none;
+    text-decoration: none;
     background-color: #000;
     color: #fff;
+    :hover {
+      color: violet;
+    }
   }
+
 `
 
 function Projects() {
@@ -37,14 +42,15 @@ function Projects() {
         <Container fluid>
           <Row className='row'>
             <Col className='column'>
-              Papers
+              <u>          Papers          </u>
               <ListGroup variant='flush'>
                 <ListGroup.Item action href='./projects/calculus_of_variations/calc_var' className='item'>Calculus of Variations</ListGroup.Item>
+                <ListGroup.Item action href='./projects/analysis/analysis' className='item'>Mathematical Analysis</ListGroup.Item>
               </ListGroup>
               
             </Col>
             <Col className='column'>
-              Software
+              <u>           Software          </u>
               <ListGroup variant='flush'>
                 <ListGroup.Item action href='./projects/erase_objects/erase_objects' className='item'>Detect and Erase Objects with AI</ListGroup.Item>
                 <ListGroup.Item action href='./projects/particles/particles' className='item'>Particle Simulator</ListGroup.Item>
