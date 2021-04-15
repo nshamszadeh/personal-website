@@ -1,10 +1,9 @@
-import React from 'react'
+import React from 'react';
 import Jumbotron from '../../components/Jumbotron';
 import Container from 'react-bootstrap/Container';
+import ReactPlayer from 'react-player';
 import { Row, Col } from 'react-bootstrap';
 import styled from 'styled-components';
-import people_demo from './people_demo.mp4';
-import car_demo from './car_demo.mp4'
 
 const Styles = styled.div`
  .description {
@@ -49,14 +48,10 @@ function erase_objects() {
              </Col>
           </Row>
           <Row>
-              <video width='640' height='480' controls>
-                <source src={people_demo} type='video/mp4' />
-              </video>
+            <ReactPlayer url='https://www.youtube.com/watch?v=a8DFHjkAiNw' controls='true'/>
           </Row>
           <Row>
-              <video width='640' height='480' controls>
-                <source src={car_demo} type='video/mp4' />
-              </video>
+            <ReactPlayer url='https://www.youtube.com/watch?v=ik2i8MKiOBU' controls='true'/>
           </Row>
         </Container>
       </Styles>
